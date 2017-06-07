@@ -100,7 +100,11 @@ console.assert(arrayReverser(numbers).toString() === '6,5,101,3,11,7,9,18,4,12,1
 var numbers = [1,12,4,18,9,7,11,3,101,5,6];
 
 function sumArrayOfNumbers(array) {
-	return array.reduce((a,b) => a + b, 0 );
+	sum = 0
+	for (var i = 0; i < array.length; i++) {
+		sum =+array[i]
+	}
+	return sum
 }
 
 console.assert(sumArrayOfNumbers(numbers) === 177, {'message': 'sumArrayOfNumbers should return 177'});
