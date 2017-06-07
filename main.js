@@ -185,7 +185,7 @@ var instructors = [
 ];
 
 var instructorNameDiscipline = instructors[5];
-// greenvIlleInstructor = ['Dan','JavaScript'],
+// greenvIlleInstructor = ['Will','JavaScript'],
 
 var instructorOne = instructors[4][0];
 // instructorOne = Joe
